@@ -1,0 +1,22 @@
+.projects-section{
+  background-color: #363636;
+  border-radius: 15px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  & h2{
+    color: #fff;
+    margin: 10px 0 10px;
+    text-align: center;
+  }
+
+  & div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 20px;
+    & img{
+      border-radius: 25px;
+      width: 200px;
+    }
+  }
+}
